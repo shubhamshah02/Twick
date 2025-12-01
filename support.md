@@ -1,6 +1,6 @@
-# Support | Chat for Kick
+# Support | Twick
 
-Welcome to the support page for **Chat for Kick**. We are dedicated to providing the best mobile chat experience for the Kick streaming platform.
+Welcome to the support page for **Twick**. We are dedicated to providing the best mobile chat experience for the Kick streaming platform.
 
 ## 📬 Contact Us
 If you have run into a bug, have a feature request, or just want to say hi, we’d love to hear from you.
@@ -15,7 +15,7 @@ If you have run into a bug, have a feature request, or just want to say hi, we�
 ### **General**
 
 **Q: Is this the official Kick app?**
-A: No, Chat for Kick is a third-party client built to provide a lightweight, native chat experience for iOS users. We are not affiliated with Kick.com.
+A: No, Twick is a third-party client built to provide a lightweight, native chat experience for iOS users. We are not affiliated with Kick.com.
 
 **Q: Why isn't the chat loading?**
 A: Please check your internet connection first. Occasionally, Kick's WebSocket servers may be under heavy load. Try switching to a different channel and back to reconnect.
