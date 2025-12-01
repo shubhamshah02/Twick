@@ -2,7 +2,7 @@
 
 **Effective Date:** November 29, 2025
 
-**Chat for Kick** ("we," "our," or "us") respects your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application.
+**Twick** ("we," "our," or "us") respects your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application.
 
 ## 1. Information We Collect
 
