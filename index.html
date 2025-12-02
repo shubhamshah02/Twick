@@ -3,62 +3,234 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twick - The Ultimate Multi-Chat Client</title>
+    <meta name="description" content="Twick - The ultimate multi-chat client for Kick and Twitch. Combined chats, 7TV emotes, and more.">
+    <title>Twick | The Ultimate Multi-Chat Experience</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="logo">
-                <span class="kick-green">Tw</span><span class="twitch-purple">ick</span>
-            </div>
-            <nav>
-                <a href="#features">Features</a>
-                <a href="privacy.html">Privacy</a>
-                <a href="terms.html">Terms</a>
-                <a href="mailto:shubham.shahh23@gmail.com" class="btn-contact">Contact</a>
-            </nav>
-        </header>
 
-        <section class="hero">
-            <h1>Chat Better on Mobile.</h1>
-            <p>The ultimate multi-platform chat client for Kick and Twitch. Experience combined chats, 7TV emotes, and seamless history.</p>
-            <div class="badges">
-                <!-- Replace '#' with your actual App Store URL -->
-                <a href="#" class="store-badge">
-                    <i class="fab fa-apple"></i> Download on App Store
+    <!-- Background Gradient Orbs -->
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="kick-green">Tw</span><span class="twitch-purple">ick</span>
+            </a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How it Works</a>
+                <a href="#faq">FAQ</a>
+                <a href="mailto:shubham.shahh23@gmail.com">Support</a>
+            </div>
+            <a href="#" class="btn btn-primary download-nav">
+                <i class="fab fa-apple"></i> Download
+            </a>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge">
+                    <span class="badge-dot"></span> v1.0 Now Available
+                </div>
+                <h1>One App.<br><span class="gradient-text">Two Platforms.</span><br>Infinite Chat.</h1>
+                <p class="hero-subtitle">Stop switching apps. View Kick and Twitch chats in a single, unified stream with native 7TV emote support and zero delay.</p>
+                <div class="hero-btns">
+                    <a href="#" class="btn btn-primary btn-lg">
+                        <i class="fab fa-apple"></i> Download on App Store
+                    </a>
+                    <a href="#features" class="btn btn-secondary btn-lg">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="trust-text">
+                    <i class="fas fa-shield-alt"></i> Secure & Private • No Data Collection
+                </div>
+            </div>
+
+            <!-- CSS Only Phone Mockup -->
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="notch"></div>
+                    <div class="screen">
+                        <div class="chat-header">
+                            <div class="pill active">Combined Chat</div>
+                        </div>
+                        <div class="chat-messages">
+                            <div class="msg kick"><span class="badge-k">K</span> <strong>User1:</strong> W Stream!</div>
+                            <div class="msg twitch"><span class="badge-t">T</span> <strong>User2:</strong> OMEGALUL <img src="https://cdn.7tv.app/emote/60ae3e54259ac5a73e56a426/1x.webp" alt="emote"></div>
+                            <div class="msg kick"><span class="badge-k">K</span> <strong>User3:</strong> <span class="rainbow">Rainbow names!</span></div>
+                            <div class="msg twitch"><span class="badge-t">T</span> <strong>User4:</strong> 7TV works perfectly</div>
+                            <div class="msg kick"><span class="badge-k">K</span> <strong>User5:</strong> Lets gooo</div>
+                        </div>
+                        <div class="input-area">
+                            <div class="input-fake"></div>
+                            <div class="send-fake"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-card card-1">
+                    <i class="fas fa-bolt"></i>
+                    <span>Zero Delay</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-smile"></i>
+                    <span>7TV Support</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Partners / Tech Stack -->
+    <div class="logos-strip">
+        <div class="container">
+            <p>POWERED BY PUBLIC APIs FROM</p>
+            <div class="logos-grid">
+                <div class="logo-item"><i class="fab fa-twitch"></i> Twitch</div>
+                <div class="logo-item"><i class="fas fa-k"></i> Kick</div>
+                <div class="logo-item"><i class="fas fa-shapes"></i> 7TV</div>
+                <div class="logo-item"><i class="fas fa-code"></i> BetterTTV</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Grid (Bento Box Style) -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Everything you need to <span class="gradient-text">Chat Pro.</span></h2>
+                <p>Designed for power users who watch multiple streams at once.</p>
+            </div>
+
+            <div class="bento-grid">
+                <!-- Large Card -->
+                <div class="bento-card large">
+                    <div class="card-content">
+                        <div class="icon-box gradient-bg"><i class="fas fa-layer-group"></i></div>
+                        <h3>Unified Experience</h3>
+                        <p>Combine chat feeds from different platforms into one seamless timeline. Never miss a message regardless of where the streamer is live.</p>
+                    </div>
+                    <div class="card-visual visual-waves"></div>
+                </div>
+
+                <!-- Small Cards -->
+                <div class="bento-card">
+                    <div class="icon-box"><i class="fas fa-history"></i></div>
+                    <h3>Chat History</h3>
+                    <p>We load chat history the moment you join. No more empty screens.</p>
+                </div>
+                <div class="bento-card">
+                    <div class="icon-box"><i class="fas fa-palette"></i></div>
+                    <h3>Themes</h3>
+                    <p>Customize accent colors, rainbow usernames, and separators.</p>
+                </div>
+
+                <!-- Wide Card -->
+                <div class="bento-card wide">
+                    <div class="card-content-row">
+                        <div class="text-side">
+                            <div class="icon-box"><i class="fas fa-images"></i></div>
+                            <h3>Third-Party Emotes</h3>
+                            <p>Native support for 7TV, BetterTTV, and FrankerFaceZ. See the emotes the way they were meant to be seen, including zero-width overlays and GIFs.</p>
+                        </div>
+                        <div class="visual-side">
+                            <div class="emote-grid">
+                                <span><img src="https://cdn.7tv.app/emote/60ae3e54259ac5a73e56a426/1x.webp"></span>
+                                <span><img src="https://cdn.7tv.app/emote/6042972e71d60f584e602235/1x.webp"></span>
+                                <span><img src="https://cdn.7tv.app/emote/62e088c422a5786471e4a643/1x.webp"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Is Twick free?</h4>
+                    <p>Yes! The core functionality is free. We offer a Pro tier for power users who want chat history, timestamps, and custom themes.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Is my data safe?</h4>
+                    <p>Absolutely. Twick stores all settings locally on your device via iCloud. We do not track your messages or collect personal data.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Do I need accounts?</h4>
+                    <p>No login is required to read chats. You can simply add channels and start watching the conversation immediately.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Why use Twick?</h4>
+                    <p>The official apps don't support third-party emotes (7TV) or combined chats. Twick fills that gap for the mobile community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-card">
+                <h2>Ready to upgrade your chat?</h2>
+                <p>Join thousands of users enjoying a better chat experience on iOS.</p>
+                <a href="#" class="btn btn-primary btn-lg white-btn">
+                    <i class="fab fa-apple"></i> Download Now
                 </a>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="features" class="features-grid">
-            <div class="feature-card">
-                <i class="fas fa-comments kick-green"></i>
-                <h3>Multi-Chat</h3>
-                <p>View Kick and Twitch chats in a single, unified stream.</p>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="logo">Twick</div>
+                    <p>The ultimate multi-chat client.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Use</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <a href="mailto:shubham.shahh23@gmail.com">Support</a>
+                    <a href="#">Twitter</a>
+                </div>
             </div>
-            <div class="feature-card">
-                <i class="fas fa-smile twitch-purple"></i>
-                <h3>Emote Support</h3>
-                <p>Full support for 7TV, BetterTTV, and FrankerFaceZ.</p>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Shubham Shah. All rights reserved.</p>
+                <p class="disclaimer">Twick is a third-party client and is not affiliated with Twitch Interactive, Inc. or Kick Streaming Pty Ltd.</p>
             </div>
-            <div class="feature-card">
-                <i class="fas fa-history"></i>
-                <h3>Chat History</h3>
-                <p>See what you missed with automatic history loading.</p>
-            </div>
-        </section>
+        </div>
+    </footer>
 
-        <footer>
-            <p>&copy; 2025 Shubham Shah. All rights reserved.</p>
-            <p class="disclaimer">Twick is a third-party client and is not affiliated with Twitch Interactive, Inc. or Kick Streaming Pty Ltd.</p>
-            <div class="footer-links">
-                <a href="privacy.html">Privacy Policy</a>
-                <span class="separator">•</span>
-                <a href="terms.html">Terms of Use</a>
-            </div>
-        </footer>
-    </div>
+    <script>
+        // Simple Mobile Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+        });
+    </script>
 </body>
 </html>
