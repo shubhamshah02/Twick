@@ -3,35 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Twick</title>
+    <title>Privacy Policy | Twick</title>
+    <link rel="icon" type="image/png" href="logo.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container legal-page">
-        <a href="index.html" class="back-link">&larr; Back to Home</a>
-        <h1>Privacy Policy</h1>
-        <p class="date">Last Updated: November 30, 2025</p>
 
-        <p>This policy applies to all information collected or submitted on Twick’s website or iOS app.</p>
+    <!-- Texture Overlay -->
+    <div class="noise-overlay"></div>
 
-        <h3>Information We Collect</h3>
-        <p>We do not collect personal information such as your name, email address, phone number, or location directly. Our app acts as a client, connecting your device directly to third-party services (Twitch, Kick).</p>
-        <p>All of your app settings (such as theme preferences and channel lists) are stored locally on your device using Apple's UserDefaults. If you are on an iOS device with iCloud enabled, this information may sync to your other iOS devices via Apple's secure iCloud infrastructure.</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Twick Logo" class="nav-logo-img">
+                <span><span class="kick-green">Tw</span><span class="twitch-purple">ick</span></span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="mailto:shubham.shahh23@gmail.com">Support</a>
+            </div>
+            <a href="https://apps.apple.com/us/app/twick-chat-for-kick-twitch/id6755964690" class="btn-download-nav">
+                Download
+            </a>
+        </div>
+    </nav>
 
-        <h3>Ads and Analytics</h3>
-        <p>Our app is integrated with Google’s AdMob, which allows us to serve advertisements within the app for non-Pro users. Google may collect and use personal data, including your device’s advertising ID, for the purposes of serving advertisements.</p>
+    <!-- Main Content -->
+    <section class="legal-section">
+        <div class="legal-container">
+            <div class="legal-header">
+                <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+                <h1 class="legal-title">Privacy Policy</h1>
+                <p class="legal-date">Last Updated: November 30, 2025</p>
+            </div>
 
-        <h3>In-App Purchases</h3>
-        <p>Our iOS app uses Apple's StoreKit to manage the in-app purchase functionality of the app. If you make an in-app purchase (Twick Pro), Apple processes this transaction. We do not receive or process your payment information, such as credit card numbers.</p>
+            <div class="legal-content">
+                <p>This policy applies to all information collected or submitted on Twick’s website or iOS app.</p>
 
-        <h3>Third-Party Connections</h3>
-        <p>The app connects to public APIs provided by Twitch and Kick to display chat messages. Your interactions with these chats are governed by the respective privacy policies of those platforms.</p>
+                <h3>Information We Collect</h3>
+                <p>We do not collect personal information such as your name, email address, phone number, or location directly. Our app acts as a client, connecting your device directly to third-party services (Twitch, Kick).</p>
+                <p>All of your app settings (such as theme preferences and channel lists) are stored locally on your device using Apple's UserDefaults. If you are on an iOS device with iCloud enabled, this information may sync to your other iOS devices via Apple's secure iCloud infrastructure.</p>
 
-        <h3>Your Consent</h3>
-        <p>By using our website or apps, you consent to our privacy policy.</p>
+                <h3>Ads and Analytics</h3>
+                <p>Our app is integrated with Google’s AdMob, which allows us to serve advertisements within the app for non-Pro users. Google may collect and use personal data, including your device’s advertising ID, for the purposes of serving advertisements.</p>
 
-        <h3>Contacting Us</h3>
-        <p>If you have questions about this Privacy Policy, you may email <a href="mailto:shubham.shahh23@gmail.com">shubham.shahh23@gmail.com</a>.</p>
-    </div>
+                <h3>In-App Purchases</h3>
+                <p>Our iOS app uses Apple's StoreKit to manage the in-app purchase functionality of the app. If you make an in-app purchase (Twick Pro), Apple processes this transaction. We do not receive or process your payment information, such as credit card numbers.</p>
+
+                <h3>Third-Party Connections</h3>
+                <p>The app connects to public APIs provided by Twitch and Kick to display chat messages. Your interactions with these chats are governed by the respective privacy policies of those platforms.</p>
+
+                <h3>Your Consent</h3>
+                <p>By using our website or apps, you consent to our privacy policy.</p>
+
+                <h3>Contacting Us</h3>
+                <p>If you have questions about this Privacy Policy, you may email <a href="mailto:shubham.shahh23@gmail.com">shubham.shahh23@gmail.com</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-left">
+                <span class="footer-logo">Twick</span>
+                <p>&copy; 2025 Shubham Shah.</p>
+            </div>
+            <div class="footer-links">
+                <a href="privacy.html" style="color: var(--text);">Privacy</a>
+                <a href="terms.html">Terms</a>
+                <a href="mailto:shubham.shahh23@gmail.com">Support</a>
+            </div>
+        </div>
+        <div class="container disclaimer-container">
+            <p class="disclaimer">Twick is a third-party client. Not affiliated with Twitch or Kick.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
