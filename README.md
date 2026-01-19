@@ -3,7 +3,7 @@
 **The ultimate chat viewer for Twitch and Kick**
 
 <p>
-  <a href="https://apps.apple.com/us/app/twick/id6478185696">
+  <a href="https://apps.apple.com/us/app/twick-chat-for-kick-twitch/id6755964690">
     <img
       title="Download on the App Store"
       alt="Apple App Store badge."
@@ -15,7 +15,7 @@
 
 ## Why Twick?
 
-The official Twitch and Kick mobile apps lack support for popular emote extensions like [7TV](https://7tv.app), [BetterTTV (BTTV)](https://betterttv.com), and [FrankerFaceZ (FFZ)](https://frankerfacez.com) — used by millions of viewers. Without these, chats become unreadable with emote names instead of images.
+The official Twitch and Kick mobile apps lack support for popular emote extensions like [7TV](https://7tv.app), [BetterTTV (BTTV)](https://betterttv.com), and [FrankerFaceZ (FFZ)](https://frankerfacez.com) which are used by millions of viewers. Without these, chats become unreadable with emote names instead of images.
 
 **Twick solves this** by bringing full third-party emote support alongside a unified experience for both platforms.
 
