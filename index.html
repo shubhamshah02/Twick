@@ -9,7 +9,7 @@
     <!-- Site Icon / Favicon -->
     <link rel="icon" type="image/png" href="logo.png">
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
@@ -22,17 +22,18 @@
     <nav class="navbar">
         <div class="container nav-container">
             <!-- Logo Section -->
-            <a href="#" class="logo">
+            <a href="/" class="logo">
                 <img src="logo.png" alt="Twick Logo" class="nav-logo-img">
             </a>
             
             <div class="nav-links">
                 <a href="#features">Features</a>
-                <a href="privacy.html">Privacy</a>
+                <a href="/privacy">Privacy</a>
                 <a href="mailto:shubham.shahh23@gmail.com">Support</a>
             </div>
             
             <a href="https://apps.apple.com/us/app/twick-chat-for-kick-twitch/id6755964690" class="btn-download-nav">
+                <img src="https://e7.pngegg.com/pngimages/779/788/png-clipart-apple-logo-%E4%BF%83%E9%94%80-heart-logo.png" alt="Apple Logo" class="apple-logo-img">
                 Download
             </a>
             
@@ -82,47 +83,41 @@
         </div>
     </header>
 
-    <!-- Supported Platforms Strip -->
-    <div class="tech-strip">
-        <div class="container">
-            <p class="strip-label">POWERED BY</p>
-            <div class="logo-grid">
-                
-                <!-- Kick -->
-                <div class="logo-item kick-logo" title="Kick">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Kick_logo.svg/1200px-Kick_logo.svg.png" alt="Kick">
-                </div>
+<!-- Supported Platforms Strip -->
+<div class="tech-strip">
+    <div class="container">
+        <p class="strip-label">POWERED BY</p>
 
-                <!-- Twitch -->
-                <div class="logo-item" title="Twitch">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twitch_logo.svg/2560px-Twitch_logo.svg.png" alt="Twitch">
-                </div>
+        <div class="logo-grid">
 
-                <!-- 7TV -->
-                <div class="logo-item" title="7TV">
-                    <svg viewBox="0 0 28 20" fill="currentColor" class="brand-svg">
-                        <path d="M20.7465 5.48825L21.9799 3.33745L22.646 2.20024L21.4125 0.0494437V0H14.8259L17.2928 4.3016L17.9836 5.48825H20.7465Z"></path>
-                        <path d="M7.15395 19.9258L14.5546 7.02104L15.4673 5.43884L13.0004 1.13724L12.3097 0.0247596H1.8995L0.666057 2.17556L0 3.31276L1.23344 5.46356V5.51301H9.12745L2.96025 16.267L2.09685 17.7998L3.33029 19.9506V20H7.15395"></path>
-                        <path d="M17.4655 19.9257H21.2398L26.1736 11.3225L27.037 9.83924L25.8036 7.68844V7.63899H22.0046L19.5377 11.9406L19.365 12.262L16.8981 7.96038L16.7255 7.63899L14.2586 11.9406L13.5679 13.1272L17.2682 19.5796L17.4655 19.9257Z"></path>
-                    </svg>
-                </div>
+            <!-- Kick -->
+            <a href="https://kick.com" target="_blank" rel="noopener noreferrer" class="logo-item kick-logo" title="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Kick_logo.svg/1200px-Kick_logo.svg.png" alt="Kick">
+            </a>
 
-                <!-- BetterTTV -->
-                <div class="logo-item" title="BetterTTV">
-                    <svg viewBox="0 0 300 300" fill="currentColor" class="brand-svg">
-                        <path fill-opacity="0" d="M249.771 150A99.771 99.922 0 0 1 150 249.922 99.771 99.922 0 0 1 50.229 150 99.771 99.922 0 0 1 150 50.078 99.771 99.922 0 0 1 249.771 150Z"></path>
-                        <path d="M150 1.74C68.409 1.74 1.74 68.41 1.74 150S68.41 298.26 150 298.26h148.26V150.17h-.004c0-.057.004-.113.004-.17C298.26 68.409 231.59 1.74 150 1.74zm0 49c55.11 0 99.26 44.15 99.26 99.26 0 55.11-44.15 99.26-99.26 99.26-55.11 0-99.26-44.15-99.26-99.26 0-55.11 44.15-99.26 99.26-99.26z"></path>
-                        <path d="M161.388 70.076c-10.662 0-19.42 7.866-19.42 17.67 0 9.803 8.758 17.67 19.42 17.67 10.662 0 19.42-7.867 19.42-17.67 0-9.804-8.758-17.67-19.42-17.67zm45.346 24.554-.02.022-.004.002c-5.402 2.771-11.53 6.895-18.224 11.978l-.002.002-.004.002c-25.943 19.766-60.027 54.218-80.344 80.33h-.072l-1.352 1.768c-5.114 6.69-9.267 12.762-12.098 18.006l-.082.082.022.021v.002l.004.002.174.176.052-.053.102.053-.07.072c30.826 30.537 81.213 30.431 111.918-.273 30.783-30.784 30.8-81.352.04-112.152l-.005-.004zM87.837 142.216c-9.803 0-17.67 8.758-17.67 19.42 0 10.662 7.867 19.42 17.67 19.42 9.804 0 17.67-8.758 17.67-19.42 0-10.662-7.866-19.42-17.67-19.42z"></path>
-                    </svg>
-                </div>
+            <!-- Twitch -->
+            <a href="https://twitch.tv" target="_blank" rel="noopener noreferrer" class="logo-item" title="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twitch_logo.svg/2560px-Twitch_logo.svg.png" alt="Twitch">
+            </a>
 
-                <!-- FrankerFaceZ -->
-                <div class="logo-item" title="FrankerFaceZ">
-                    <img src="https://www.frankerfacez.com/static/images/ZreknarF-white.png" alt="FFZ">
-                </div>
-            </div>
+            <!-- 7TV -->
+            <a href="https://7tv.app" target="_blank" rel="noopener noreferrer" class="logo-item" title="">
+                <img src="https://cdn.7tv.app/emote/01JTTR1J4HTK35S08H272VCWV3/4x.png" alt="7TV">
+            </a>
+
+            <!-- BetterTTV -->
+            <a href="https://betterttv.com" target="_blank" rel="noopener noreferrer" class="logo-item" title="">
+               <img src="https://betterttv.com/favicon.png" alt="BetterTTV">
+            </a>
+
+            <!-- FrankerFaceZ -->
+            <a href="https://frankerfacez.com" target="_blank" rel="noopener noreferrer" class="logo-item" title="">
+                <img src="https://www.frankerfacez.com/static/images/cover/zreknarf.png" alt="FFZ">
+            </a>
+
         </div>
     </div>
+</div>
 
     <!-- Feature Bento Grid -->
     <section id="features" class="features">
@@ -179,8 +174,8 @@
                 <p>&copy; 2025 Shubham Shah.</p>
             </div>
             <div class="footer-links">
-                <a href="privacy.html">Privacy</a>
-                <a href="terms.html">Terms</a>
+                <a href="/privacy">Privacy</a>
+                <a href="/terms">Terms</a>
                 <a href="mailto:shubham.shahh23@gmail.com">Support</a>
             </div>
         </div>
