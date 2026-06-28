@@ -9,13 +9,13 @@
       alt="Apple App Store badge."
       src="https://user-images.githubusercontent.com/54859075/160051843-1d8b2186-97e9-4edd-a957-bb4797b71b4a.svg"
       width="200px"
-    )
+    />
   </a>
 </p>
 
-The official Twitch and Kick mobile applications leave community spaces feeling fragmented, completely lacking native support for popular chat extensions like 7TV, BetterTTV (BTTV), and FrankerFaceZ (FFZ). Millions of viewers are left looking at unrendered plain text tags instead of actual community expressions.
+The official Twitch and Kick mobile apps don't support popular chat extensions like 7TV, BetterTTV (BTTV), and FrankerFaceZ (FFZ). Instead of actual emotes, millions of mobile viewers are left looking at plain text codes that make chat impossible to read.
 
-**Twick bridges the gap** by delivering deep third-party emote integration alongside a beautiful, seamless viewing experience across both platforms simultaneously.
+Twick fixes this by bringing third-party emotes and badges directly to your phone, with a seamless viewing experience for both platforms.
 
 <p align="center">
   <img src="docs/images/app-hero.png" alt="Twick core viewing experience showing live video playback and high-density chat rendering" width="800" />
@@ -25,77 +25,93 @@ The official Twitch and Kick mobile applications leave community spaces feeling 
 
 ## Features
 
-### Comprehensive Emote Integration
-Stop reading plain-text extension tags and view chats the way they were intended to look.
-* **Full Extension Aggregation:** Immersive processing for 7TV, BetterTTV, and FrankerFaceZ visual nodes layers directly into the native chat flow.
-* **Smart Content Auto-Discovery:** Access all global and channel-specific emote slots seamlessly with built-in asset mapping.
-* **Intelligent Autocomplete:** Tap active text fields to pull up fast, inline autocomplete listings for immediate selection while typing.
+### Third-Party Emotes & Badges
+Stop reading text codes and see chat exactly how it was meant to look.
+* Load all global and channel emotes from 7TV, BetterTTV, and FrankerFaceZ straight into your chat feed.
+* Pull up a quick-access menu with autocomplete while typing to find and insert emotes instantly.
+* Automatically retries background network requests if an emote image fails to load.
 
-### Granular Display Adjustments
-Tailor your readability preferences exactly to your screen environment with real-time feedback panels.
+### Multi-Platform Chat Modes
+Watch your favorite creators and link your streaming accounts in one clean interface.
+
+<p align="center">
+  <img src="docs/images/combined-chat.png" alt="Twick combined chat mode displaying real-time message streams from both services simultaneously" width="400" />
+</p>
+
+* Watch Twitch and Kick chats side-by-side or combined into a single chronological feed.
+* Tap reply threads to see original messages and easily follow moderator conversations.
+* Manage multiple platform profiles with active alerts that let you know if your login token expires.
+
+### Chat Customization & Real-Time Preview
+Change the look and layout of your chat rooms to fit your eyes and screen.
 
 <p align="center">
   <img src="docs/images/chat-customization.png" alt="Chat layout configuration view showing font, row spacing, and emote scale slider metrics" width="400" />
 </p>
 
-* **Flexible Sizing Configurations:** Adjust primary font sizing metrics, custom line spacing rows, creator loyalty badge sizes, and independent emote rendering scales.
-* **Visual Clarity Enhancements:** Toggle on unique look choices like rainbow username sorting, distinct message dividers, and precise message timestamps.
-* **Immediate System Previews:** Audit text weight or sizing revisions instantly in the settings window before shifting back into active streams.
+* Use sliders to adjust font size, line spacing, user badges, and emote sizes.
+* Personalize your chat layout with toggles for rainbow usernames, message line dividers, and timestamps.
+* See your layout changes update instantly in a live preview box before saving them.
 
-### Dedicated CarPlay Audio Companion
-Take your live communities with you on your commute using media architectures engineered specifically for the road.
+### Video Player, Background Audio & CarPlay
+Keep up with the stream using a media engine built for multitasking and travel.
 
 <p align="center">
   <img src="docs/images/carplay-audio.png" alt="Twick live dashboard view running on Apple CarPlay" width="700" />
 </p>
 
-* **Native Vehicle Coordination:** Browse your followed feeds, track live categories, and review room info cleanly using a customized CarPlay interface.
-* **Uninterrupted Background Audio:** Transition live video rooms effortlessly into background sound feeds optimized to manage resource boundaries during travel.
-* **Hardware Remote Control:** Shift paths, manage audio playback pauses, and review announcer text strings straight from dashboard panel controls.
+* Multitask effortlessly with Picture-in-Picture, full-screen theater modes, and lock-screen widgets.
+* Listen to live streams on the road with an official Apple CarPlay audio app layout.
+* Browse your followed list, pick video categories, and pause stream audio directly from your dashboard screen.
 
-### Consolidated Feed Control
-Organize disparate platform accounts inside a singular, high-performance profile setup.
+---
 
-<p align="center">
-  <img src="docs/images/channel-manager.png" alt="Twick account view filtering between Kick, Twitch, and combined streaming profiles" width="600" />
-</p>
+## Ecosystem Comparison
 
-* **Platform Synchronization:** Manage, track, and reorder distinct stream entries across separate services inside a single master channel view.
-* **Announcements & Pins:** Never miss essential broadcast shifts with top-anchored banner modules that display pinned comments and moderation tags.
-* **Immersive Multitasking Player:** Track action grids continuously using responsive Picture-in-Picture windows, dedicated full-screen theater modes, and lock-screen progress widgets.
+Unlike standalone wrappers, Twick aggregates platform chat structures and custom extension layers into a fast, unified dashboard environment.
+
+| Feature Matrix | **Twick** | Twitch App | Kick App | Chatsen | Frosty |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Twitch Integration** | Yes | Yes | No | Yes | Yes |
+| **Kick Integration** | Yes | No | Yes | No | No |
+| **Combined Chat Mode** | Yes | No | No | No | No |
+| **7TV Emotes & Badges** | Yes | No | No | Yes | Yes |
+| **BTTV Emotes & Badges** | Yes | No | No | Yes | Yes |
+| **FFZ Emotes & Badges** | Yes | No | No | Yes | Yes |
+| **CarPlay Core Integration** | Yes | No | No | No | No |
+| **Live Home Widgets** | Yes | No | No | No | No |
+| **Universal iCloud Sync** | Yes | No | No | No | No |
+| **Direct Server Handshake** | Yes | Yes | Yes | Yes | Yes |
 
 ---
 
 ## Core Workflows
 
-* **Unified Stream Monitoring:** Observe cross-broadcast rooms simultaneously without maintaining independent applications or managing multiple web browser sheets.
-* **Automated Audio Transit:** Listen to community debates or live coverage safely on the road using intuitive dashboard layouts built for travel.
-* **Personalized Accessibility Mapping:** Customize microscopic chat room feeds into high-visibility layouts that reduce eye strain during extended viewing sessions.
+* Keep up with dual-streamed broadcasts without bouncing back and forth between different apps.
+* Listen to live streams or community events safely while driving using clean vehicle controls.
+* Scale up tiny, fast-moving text into high-visibility layouts that reduce eye strain during long viewings.
 
-## Quick Start
+**Device Compatibility:** Requires an iPhone or iPad running iOS 18.0 or newer.
 
-1. Download **Twick** through the [Apple App Store](https://apps.apple.com/us/app/twick-chat-for-kick-twitch/id6755964690).
-2. Save your preferred live profiles onto your centralized dashboard view.
-3. Link your provider profiles securely to join the room discussion, or track active live chats anonymously in a read-only configuration.
-
-**Device Compatibility:** Optimized for iPhone and iPad setups running iOS 14.0 or newer.
+---
 
 ## Twick Pro Upgrade
 
-Support independent development and unlock elite performance customizations through flexible premium options:
-* **Limitless Feed Slots:** Remove all interface caps to monitor and jump between unlimited saved channels instantly.
-* **Historical Context Catch-Up:** Pull in cached chat histories immediately when entering any channel to understand the conversation before you type.
-* **Advanced Synchronization:** Access customized theme matching options, precise stream delay offset balancing, and universal iCloud setting backups across multiple screens.
+Support independent development and unlock advanced premium features:
+* Save as many channels as you want and switch between them instantly.
+* Load recent chat history automatically when you join a room so you never miss the context.
+* Sync your saved channels, layout preferences, and accounts across all your Apple devices via iCloud.
+* Unlock custom app color themes and sync chat delay timers to perfectly match live video latency.
 
-## Privacy & Security Ideals
+## Privacy & Security
 
-* **Direct-to-Platform Connections:** Twick establishes direct network paths exclusively between your terminal and the official streaming provider servers.
-* **Zero Intermediary Collection Backends:** The application runs fully without logging messages, saving inputs, or utilizing an external intermediary tracking server. Your data stays entirely yours.
+* Twick connects directly to the official Twitch and Kick servers from your device.
+* The app runs entirely without an intermediary tracking server. Your messages, logins, and settings are never stored or shared by us.
 
-## Support Channels
+## Support & Feedback
 
-* **Community Hub:** [Join our official Discord server](https://discord.gg/czrTkKvn26) to log issues, suggest custom layout features, and discuss new updates.
-* **Direct Feedback Line:** Tap Settings → Send Feedback inside the application interface to submit performance metrics directly to the development pipeline.
+* **Discord Community:** [Join our official Discord server](https://discord.gg/czrTkKvn26) to request features, report bugs, and chat with other users.
+* **Send Feedback:** Go to Settings → Send Feedback directly inside the app to get in touch.
 
 ---
-Built with care by **Shubham Shah**. All rights reserved. Proprietary application structure.
+Built with care by Shubham Shah. All rights reserved. Proprietary software.
